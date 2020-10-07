@@ -29,12 +29,6 @@ test("function will return an array that contains items under five dollars", () 
 
   fiveDollarGifts(inventory);
 
-  // expect(fiveDollarGifts(inventory)).toContain({"Beer Mat Coaster Games": coaster});
-  // // expect(fiveDollarGifts(inventory)).toContain({resistanceBands.name: resistanceBands});
-  // expect(fiveDollarGifts(inventory)).toContain({"Three Level Resistance Bands": resistanceBands});
-  // expect(fiveDollarGifts(inventory)).toContain({"Beer Mat Coaster Games": coaster}, {"Three Level Resistance Bands": resistanceBands});
-  //how come this only shows the coaster as the expected when I have the resistanceBands specified as well?
-
   expect(fiveDollarGifts(inventory)).toContain({"Beer Mat Coaster Games": coaster}, {"Three Level Resistance Bands": resistanceBands});
 
 })
